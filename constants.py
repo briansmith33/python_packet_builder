@@ -7,6 +7,12 @@ FORMAT = "utf-8"
 FLAG_R = {0: "0 - Reserved bit"}
 FLAG_DF = {0: "0 - Fragment if necessary", 1: "1 - Do not Fragment"}
 FLAG_MF = {0: "0 - Last Fragment", 1: "1 - More Fragments"}
+PRECEDENCE = {0: "Routine", 1: "Priority", 2: "Immediate", 3: "Flash", 4: "Flash Override", 5: "CRITIC/ECP",
+                  6: "Internetwork Control", 7: "Network Control"}
+DELAY = {0: "Normal delay", 1: "Low delay"}
+THROUGHPUT = {0: "Normal throughput", 1: "High throughput"}
+RELIABILITY = {0: "Normal reliability", 1: "High reliability"}
+COST = {0: "Normal monetary cost", 1: "Minimum monetary cost"}
 IPV4_HL = 20
 IPV6_HL = 40
 TCP_HL = 20
